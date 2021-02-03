@@ -1,0 +1,54 @@
+.displaynone {
+  display: none;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 3em;
+  color: cadetblue;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+  font-style: italic;
+  color: cornflowerblue;
+}
+
+p {
+  color: rgb(54, 94, 168);
+  font-family: "Courier New", Courier, monospace;
+}
+
+#template {
+  border: 2px dotted violet;
+  padding: 1em;
+  margin: 2em;
+  display: inline-block;
+}
+
+.more {
+  border: 2px solid violet;
+  background-color: white;
+  z-index: 5;
+  padding: 2em;
+  margin-top: 1em;
+}
+
+button {
+  border: 1px dashed hotpink;
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 1em;
+}
+
+button:hover {
+  background: paleturquoise;
+}
+
+button:active {
+  background: hotpink;
+}
